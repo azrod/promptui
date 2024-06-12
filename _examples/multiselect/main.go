@@ -7,18 +7,18 @@ import (
 )
 
 func main() {
-	prompt := promptui.Select{
+	prompt := promptui.MultiSelect{
 		Label: "Select Day",
 		Items: []string{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
 			"Saturday", "Sunday"},
 	}
 
-	_, result, err := prompt.Run()
+	i, err := prompt.Run()
 
 	if err != nil {
 		fmt.Printf("Prompt failed %v\n", err)
 		return
 	}
 
-	fmt.Printf("You choose %q\n", result)
+	fmt.Printf("You choose %v\n", i)
 }

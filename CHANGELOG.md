@@ -13,7 +13,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Resolve license incompatibility in tabwriter
 
-
 ## [0.8.0] - 2020-09-28
 
 ### Added
@@ -26,7 +25,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Fix echo of cursor after input is finished
 - Better support for keycodes on Windows
-
 
 ## [0.7.0] - 2020-01-11
 
@@ -123,7 +121,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
-- extract `promptui` from [torus](https://github.com/manifoldco/torus-cli) as a
+- extract `promptui` from [torus](https://github.com/azrod/torus-cli) as a
   standalone lib.
 - `promptui.Prompt` provides a single input line to capture user information.
 - `promptui.Select` provides a list of options to choose from. Users can
